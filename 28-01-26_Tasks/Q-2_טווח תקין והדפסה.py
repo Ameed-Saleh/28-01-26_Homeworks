@@ -2,8 +2,8 @@ _lower = int(input("the lower limit: "))
 while True:
    _higher = int(input("the higher limit: "))
    if  _higher > _lower:
-       print("🔉","~~lower~~ = ", _lower)
-       print("🔊","~~higher~~ = ", _higher)
+       print("🔉"," ~~lower~~ = ", _lower)
+       print("🔊"," ~~higher~~ = ", _higher)
        break
    if _higher <= _lower:
        _lower = int(input("the lower limit: "))

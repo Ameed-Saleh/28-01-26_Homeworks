@@ -1,7 +1,7 @@
 _count = 1
-_previous = int(input('הכנס מספר?'))
+_previous = int(input(" הכנס מספר ?"))
 while True:
-    _current = int(input('הכנס מספר נוכחי?'))
+    _current = int(input("הכנס מספר נוכחי:"))
     if _current > _previous:
         _count += 1
         _previous = _current
